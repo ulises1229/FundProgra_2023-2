@@ -1,8 +1,8 @@
-# Licenciatura en Tecnología - Computación I
+# Licenciatura en Tecnología - Fundamentos de Programación
 
 <img src="figs/lictec_small.png" alt="drawing" width="300" style = "text-align: center"/>
 
-## Semestre 2023-1
+## Semestre 2023-2
 
 ![alt text](figs/bg.png)
 
@@ -14,10 +14,9 @@ Dr. Ulises Olivares Pinto
 
 
 ## Objetivo
-Dotar al estudiante de habilidades básicas de programación y capacidad de abstracción lógica para la solución de problemas utilizando el lenguaje de programación C++ y Python.
+Al finalizar el curso el alumnado será capaz de construir y evaluar algoritmos computacionales para la solución de problemas con aplicaciones en el ámbito tecnológico utilizando el lenguaje de programación C++ y/o Python.
 
 ## Enlaces de interés
-
 + [Git](https://git-scm.com/downloads)
 + [GitHub](https://desktop.github.com/)
 + [Clion](https://www.jetbrains.com/clion/)
