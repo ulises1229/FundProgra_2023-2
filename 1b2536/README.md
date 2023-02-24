@@ -1,0 +1,28 @@
+# Calificaciones: 1b2536
+
+### Calificación final: 8.2
+
+|Project|Exists|Compiles|Problem1|Problem2|Problem3|Extra|CommitHash|CommitDate|CheckDate|Comments|DueDate|Grade|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|Puntos|❌|❌|❌|❌|❌|❌|NA|NA|01-12-2022 14:26:38|No se encontró el archivo en PracticasCompuI/Puntos/Punto.cpp|13-11-2022 21:00:00|5|
+|CargaElectrica|❌|❌|❌|❌|❌|❌|NA|NA|01-12-2022 14:26:38|No se encontró el archivo en PracticasCompuI/CargaElectrica/CargaElectrica.cpp|23-11-2022 21:00:00|5|
+|Calculadora|✔️|✔️|❌|❌|❌|❌|14d8f09d3663fa31cc167bb084382f1f9d509824|30-11-2022 22:43:44|30-11-2022 23:38:18|Revisa la operación suma-No implementaste operaciones con números flotantes-Revisa la operación división-No sale con código diferente de cero con división entre cero|28-09-2022 21:00:00|5.0|
+|Calculadora|✔️|✔️|❌|❌|❌|❌|886c5723440729317b9ce6949c7d868e40bfb673|25-10-2022 22:06:08|25-10-2022 22:48:15|Revisa la operación suma-No implementaste operaciones con números flotantes-Revisa la operación división-No sale con código diferente de cero con división entre cero|28-09-2022 21:00:00|5.0|
+|GaussJordan|✔️|✔️|❌|❌|❌|❌|f73d734281af743a3f5e111d46a3ad600abba3d1|17-10-2022 10:17:24|17-10-2022 10:30:12|No aplica correctamente el método de Gauss-Jordan-No aplica correctamente el método de Gauss-Jordan-No avisa al usuario que el sistema no tiene solución-No intercambia las filas cuando un pivote es cero|19-10-2022 21:00:00|6.0|
+|GaussJordan|✔️|❌|❌|❌|❌|❌|e30cebe46803f655f9159a2b33e1731326f785dd|16-10-2022 23:24:55|17-10-2022 00:08:26|Tu código no compila|19-10-2022 21:00:00|5.0|
+|Calculadora|✔️|✔️|❌|❌|❌|❌|9ed5cc938a3cff99cac680da3360135c4ca2b1c2|16-10-2022 23:20:56|17-10-2022 00:07:43|Revisa la operación suma-No implementaste operaciones con números flotantes-Revisa la operación división-No sale con código diferente de cero con división entre cero|28-09-2022 21:00:00|5.0|
+|GaussJordan|✔️|✔️|❌|❌|✔️|❌|3a8949c7ca9211afec3562f46615d733fe5847af|16-10-2022 22:46:21|16-10-2022 23:04:12|No aplica correctamente el método de Gauss-Jordan-No aplica correctamente el método de Gauss-Jordan-No intercambia las filas cuando un pivote es cero|19-10-2022 21:00:00|7.333333333333333|
+|GaussJordan|✔️|✔️|❌|❌|✔️|❌|0ef86cae3e86112cda0b328d386c0e6991eded3f|16-10-2022 21:05:51|16-10-2022 22:00:41|No aplica correctamente el método de Gauss-Jordan-No aplica correctamente el método de Gauss-Jordan-No intercambia las filas cuando un pivote es cero|19-10-2022 21:00:00|7.333333333333333|
+|GaussJordan|✔️|✔️|❌|❌|❌|❌|bc79569277d43df9aa75b53f2222b1b5212f4a6e|16-10-2022 17:47:24|16-10-2022 17:50:41|No aplica correctamente el método de Gauss-Jordan-No aplica correctamente el método de Gauss-Jordan-No avisa al usuario que el sistema no tiene solución-No intercambia las filas cuando un pivote es cero|19-10-2022 21:00:00|6.0|
+|Arreglos|✔️|✔️|✔️|✔️|✔️|✔️|fc2de322da09d5d7c5895e7a09071e3a6d52c6c8|16-10-2022 16:41:03|16-10-2022 16:47:36|¡Excelente trabajo!|05-10-2022 21:00:00|5.0|
+|Arreglos|✔️|✔️|❌|❌|❌|❌|3a12f03da2fd71cf909eaca762d3886102033b55|16-10-2022 15:00:10|16-10-2022 15:44:31|Revisa la operación suma-Revisa la operación multiplicación-El segundo arreglo debe de poder ser de números flotantes-No debe permitir ingresar un operador incorrecto|05-10-2022 21:00:00|5.0|
+|Calculadora|✔️|✔️|❌|❌|❌|❌|a41badc438b98819a7d56e449bdfc64f5cea09be|16-10-2022 14:41:48|16-10-2022 15:43:48|Revisa la operación suma-No implementaste operaciones con números flotantes-Revisa la operación división-No sale con código diferente de cero con división entre cero|28-09-2022 21:00:00|5.0|
+|Calculadora|✔️|❌|❌|❌|❌|❌|5cee0382fdb21d448c63024e5f0ac1b9fc94aac2|16-10-2022 14:40:25|16-10-2022 14:41:39|Tu código no compila|28-09-2022 21:00:00|5.0|
+|GaussJordan|✔️|✔️|❌|❌|❌|❌|3ec8b4a211282c7fcddc1cb9885519ccdb248ea2|12-10-2022 20:30:31|12-10-2022 21:23:25|No aplica correctamente el método de Gauss-Jordan-No aplica correctamente el método de Gauss-Jordan-No avisa al usuario que el sistema no tiene solución-No intercambia las filas cuando un pivote es cero|12-10-2022 21:00:00|6.0|
+|Calculadora|✔️|✔️|❌|❌|❌|❌|95b35071faf5e5337cd205ba237f04a6d354c16e|09-10-2022 20:09:50|09-10-2022 20:24:49|Revisa la operación suma-No implementaste operaciones con números flotantes-Revisa la operación división-No sale con código diferente de cero con división entre cero|28-09-2022 21:00:00|5.0|
+|Arreglos|✔️|✔️|❌|❌|❌|❌|0df76455d00a042c50b495c6b5965e8aad4c4f34|08-10-2022 22:46:21|08-10-2022 23:39:44|Revisa la operación suma-Revisa la operación multiplicación-El segundo arreglo debe de poder ser de números flotantes-No debe permitir ingresar un operador incorrecto|05-10-2022 21:00:00|5.0|
+|Arreglos|✔️|❌|❌|❌|❌|❌|2bc0f53d880b62d024c7279b550966b9c31e0fe3|06-10-2022 21:01:32|06-10-2022 21:53:23|Tu código no compila|05-10-2022 21:00:00|5.0|
+|Calculadora|✔️|✔️|❌|❌|❌|✔️|447a19d3ac879e9e3ff344f5ea74cbc6c9c0b73f|03-10-2022 11:46:26|05-10-2022 14:45:04|Revisa la operación suma-No implementaste operaciones con números flotantes-Revisa la operación división|28-09-2022 21:00:00|5.333333333333333|
+|GaussJordan|✔️|✔️|❌|❌|❌|❌|3fba7359431a57035171e585cf1ebb1f5b5e56a0|02-11-2022 15:11:58|02-11-2022 20:02:30|No aplica correctamente el método de Gauss-Jordan-No aplica correctamente el método de Gauss-Jordan-No avisa al usuario que el sistema no tiene solución-No intercambia las filas cuando un pivote es cero|19-10-2022 21:00:00|5.0|
+
+Última actualización: 01-12-2022 14:26
