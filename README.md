@@ -49,9 +49,8 @@ Al finalizar el curso el alumnado será capaz de construir y evaluar algoritmos 
 |5. Funciones|Funciones, suma de valores, paso de parámetros por valor|<ul> <li> [Suma Simple](code/C%2B%2B/funcionSum.cpp)</li> </ul>|
 |6. Templates|Plantillas, funciones|<ul> <li> [Plantillas de funciones](code/C%2B%2B/plantillas.cpp) </li></ul>|
 |7. Sobrecarga de funciones|Sobrecarga, funciones |<ul> <li> [Sobrecarga de funciones](code/C%2B%2B/sobrecarga_func.cpp) </li> </ul>|
-|8. Clases y objetos|Clases, objetos, atributos, métodos |<ul> <li> [Área de Triángulo en un plano](code/C%2B%2B/POO/triangle_plane) </li> <li> [Área de Triángulo (estructuras)](code/C%2B%2B/POO/triangle_struct) </li><li>  </li></ul>|
-|9. Vectores |POO, vectores |<ul> <li> </li> </ul>|
-|10. Apuntadores |Punteros, paso de parámetros por referencia |<ul> <li> </li> </ul>|
+|8. Vectores |POO, vectores |<ul> <li> </li> </ul>|
+|9. Apuntadores |Punteros, paso de parámetros por referencia |<ul> <li> </li> </ul>|
 
 ### Python
 
@@ -75,4 +74,4 @@ Al finalizar el curso el alumnado será capaz de construir y evaluar algoritmos 
 |6.Puntos y tansformaciones|<ol><li>Clases en C++</li><li>Archivos _.h_</li></ol>|<ul><li>[Práctica](practicas/6_Puntos)</li></ul>|13/11/2021|
 |7.Carga Eléctrica|<ol><li>Programación orientada a objetos</li><li>Constructor y destructor en C++</li></ol>|<ul><li>[Práctica](practicas/7_CargaElectrica)</li><li>[Presentación](practicas/7_CargaElectrica/CargaElectricaPresentacion.pdf)</li></ul>|16/11/2021|
 
-#### Última modificación: 9 de noviembre de 2022
+#### Última modificación: 27 de febrero de 2023
