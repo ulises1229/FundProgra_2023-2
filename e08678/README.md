@@ -1,6 +1,6 @@
 # Calificaciones: e08678
 |Project|Exists|Compiles|Problem1|Problem2|Problem3|Extra|CommitHash|CommitDate|CheckDate|Comments|DueDate|Grade|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
-|GaussJordan|❌|❌|❌|❌|❌|❌|NA|NA|21-03-2023 06:26:30|No se encontró el archivo en PracticasCompuI/GaussJordan/GaussJordan.cpp|27-03-2023 21:00:00|5|
+|GaussJordan|❌|❌|❌|❌|❌|❌|NA|NA|21-03-2023 07:26:51|No se encontró el archivo en PracticasCompuI/GaussJordan/GaussJordan.cpp|27-03-2023 21:00:00|5|
 
-Última actualización: 21-03-2023 06:26
+Última actualización: 21-03-2023 07:26
