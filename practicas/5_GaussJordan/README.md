@@ -1,6 +1,6 @@
 # Práctica 5: GaussJordan
 
-## Fecha de realización: 12/10/2022
+## Fecha de realización: 27/03/2023
 
 ## Temas
 * Matrices
