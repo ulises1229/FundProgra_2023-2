@@ -1,8 +1,5 @@
 # Revisiones de las prácticas
 
-## IMPORTANTE: Las calificaciones finales ya etsán listas (ya no hay cambios) la puedes revisar en tu carpeta, en el encabezado del README aparecerá tu calificación final. Recuerda que esa calificación es el promedio de todas las practias, considerando la calificación más alta que obtuviste para cada práctica.
-
-
 En esta sección del repository puedes encontrar las revisiones de tus archivos para cada una de las prácticas. 
 
 
