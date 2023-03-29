@@ -68,4 +68,4 @@ Al finalizar el curso el alumnado será capaz de construir y evaluar algoritmos 
 |5.GaussJordan|<ol><li>Matrices</li><li>Templates</li><li>Funciones (paso de argumentos)</li></ol>|<ul><li>[Práctica](practicas/5_GaussJordan)</li></ul>|29/03/2023|
 
 
-#### Última modificación: 20 de marzo de 2023
+#### Última modificación: 28 de marzo de 2023
