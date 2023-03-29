@@ -1,81 +1,154 @@
-/* Author: Ulises Olivares
- * uolivares@unam.mx
- * Mar 28, 2023
- */
+
 
 #include <iostream>
 #include <array>
 
+// Añadir std para fácil llamado de funciones
 using namespace std;
 
-//array<array<int,3>,4> B  {{2, 1, -1, 8},
-//             {-3, -1, 2,-11},
-//             {-2, 1, 2, -3}}
+//// Declaración de funciones
+//Definimos un template (un tipo de dato) para nuestra matriz
+template <typename matriz>
+void LlenarMatriz(matriz & miMatriz);
 
-const int filas = 3, cols = 4;
+template <typename matriz>
+void ImprimirMatriz(matriz & miMatriz);
 
-int A[3][4] {{0, 1, -1, 8},
-             {-3, -1, 2,-11},
-             {-2, 1, 2, -3}};
+template <typename matriz>
+void GaussJordan(matriz & miMatriz);
 
-int encontrarPivote(int fila, int col);
-void intercambiarFilas(int f1, int f2);
-void imprimirMatriz(void);
+template <typename matriz>
+void ImprimirSolucion(matriz & miMatriz);
 
-int main() {
-    for(int i = 0; i< 4 ; i++){
-        for(int j = 0; j<3 ;j ++){
-            int pivote = A[i][i];
-            if(pivote==0) {
-                imprimirMatriz();
-                int nuevaFila = encontrarPivote(i, j);
-                if (nuevaFila == -1) {
-                    cout << "El sistema de ecuaciones no tiene solución" << endl;
-                    exit(0);
-                } else {
-                    intercambiarFilas(i, nuevaFila);
-                    pivote = A[i][i];
-                    imprimirMatriz();
-                }
-                // Realizar eliminación
-                // TODO:
-                //  1) múltiplo
-                //  2) Efectuar operación (tmp)
-                //  3) Escribir resultado
-            }
-        }
-    }
+template <typename matriz>
+int buscarPivote(matriz &miMatriz, int fila, int numFilas);
 
-    return 0;
+
+
+int main()
+{
+    // Definimos el número de variables de nuestro sistema
+    const int variables = 3;
+    // El número de columnas será el número de variables más su solición para cada ecuación
+    const int columnas = variables + 1;
+
+    // Inicializamos la matriz que vamos a ocupar
+    array <array<float, columnas>, variables> miMatriz = { 0 };
+
+    // Pedimos al usuario que llene la matriz
+    LlenarMatriz(miMatriz);
+
+    // Aplicamos el método de Gauss-Jordan sobre nuestra matriz
+    GaussJordan(miMatriz);
+
+    // Imprimimos la solución de la matriz
+    //ImprimirSolucion(miMatriz);
+
+    return 0; // Indicamos que salimos del programa con éxito
 }
 
-int encontrarPivote(int fila, int col){
-    int max = -999999, indiceFila = -1;
-    for(int j = fila + 1; j < filas; j++){
-        if(A[j][col] > max && A[j][col] != 0){
-            max = A[j][col];
-            indiceFila = j;
+/* 
+Llena 'miMatriz' con valores ingresados por el usuario para cada elemento.
+No regresa ningún valor.
+*/
+template <typename matriz>
+void LlenarMatriz(matriz & miMatriz)
+{
+    int variables = miMatriz.size();
+    for (int i = 0; i < variables; i++) {
+        for (int j = 0; j <= variables; j++) {
+            cout << "Valor elemento [" << i << "][" << j << "]: ";
+            cin >> miMatriz[i][j];
         }
-    }
-    return indiceFila;
-}
-
-void intercambiarFilas(int f1, int f2){
-    int aux[cols];
-    for(int i= 0; i<cols; i++){
-        aux[i] = A[f1][i];
-        A[f1][i] = A[f2][i];
-        A[f2][i] = aux[i];
     }
 }
 
-void imprimirMatriz(void){
-    cout << "-----------------" << endl;
-    for(int i =0; i<filas; i++){
-        for(int j=0; j<cols; j++){
-            cout << A[i][j] <<"  ";
-        }
-        cout << endl;
+/* 
+Imprime cada elemento de 'miMatriz' emulando una matriz con corchetes cuadrados.
+No regresa ningún valor.
+*/
+template <typename matriz>
+void ImprimirMatriz(matriz & miMatriz)
+{
+    int variables = miMatriz.size();
+    for (int i = 0; i < variables; i++) {
+        cout << "[ ";
+        for (int j = 0; j < variables + 1; j++)
+            cout << miMatriz[i][j] << '\t';
+        cout << "]\n";
     }
-    cout << "-----------------" << endl;
+}
+
+/*
+Imprime en pantalla la solución para cada variable del sistema de ecuaciones correspondiente a los valores en 'miMatriz'.
+No regresa ningún valor.
+*/
+template <typename matriz>
+void ImprimirSolucion(matriz & miMatriz)
+{
+    //TODO
+}
+
+
+/*
+ * Esta función busca un pivote empleando la técnica de pivoteo parcial
+ * Parámetros: Matriz, fila actual y número de filas.
+ * Salida: Índice de la fila que contiene el pivote. (El pivote se debe posiciónar en la diagonal principal i == j)
+ */
+template <typename matriz> // Se definen dos typenames el primero es para la matriz el segundo para variables
+int buscarPivote(matriz &miMatriz, int fila, int numFilas){
+    int col = fila; // El pivote se ubica en la diagonal principal por lo tanto i = j => fila = fila.
+    int indicePivote = -1;
+    // Se asume que el elemento mayor se encuentra inicialmente en la primero posición
+    float max = miMatriz[fila][col];
+    // Se itera sobre las filas para encontrar el menor elemento
+    for(int i = fila; i<numFilas; i++){ // Itera desde la fila actual hasta numFilas.
+        if(miMatriz[i][col] != 0 & miMatriz[i][col] >= max){ // Si el elemento es distinto de cero y mayor.
+            max = miMatriz[i][col];
+            indicePivote = i;
+        }
+    }
+    return indicePivote;
+}
+
+template <typename matriz>
+void intercambiarFilas(matriz &miMatriz, int fila1, int fila2, int cols){
+    // Alternativa: Usar la función swap.
+    for(int j = 0; j < cols; j++){ 
+        int temp = miMatriz[fila1][j];
+        miMatriz [fila1][j] = miMatriz[fila2][j];
+        miMatriz[fila2][j] = temp;
+
+    }
+}
+
+
+/*
+Implementa el algoritmo de Gauss-Jordan sobre 'miMatriz', finalizando en ella la solución del algoritmo.
+No regresa ningún valor.
+*/
+template <typename matriz>
+void GaussJordan(matriz &miMatriz){
+
+    cout << "Matriz original" << endl;
+    ImprimirMatriz(miMatriz);
+
+    // Definir número de filas y cols de la matriz
+    int filas = miMatriz.size(), cols = miMatriz.size()+1;
+
+    for(int i = 0; i<miMatriz.size(); i++){
+        // retorna el índice de la fila en la que se encuentra el pivote (elemento mayo != 0)
+        int indicePivote = buscarPivote(miMatriz, i, filas);  // se usa la técnica de pivoteo parcial.
+
+        if(indicePivote != -1){ // Si se encontraron elementos != 0
+            //intercambiar filas actual y fila de pivote)
+            intercambiarFilas(miMatriz, i, indicePivote, cols);
+        }
+        else{
+            cout << "El sistema no tiene solución" << endl;
+            exit(0);
+        }
+
+        // TODO: Realizar la eliminación de Gauss Jordan
+    }
 }
