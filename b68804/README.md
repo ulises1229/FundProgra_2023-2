@@ -1,6 +1,6 @@
 # Calificaciones: b68804
 |Project|Exists|Compiles|Problem1|Problem2|Problem3|Extra|CommitHash|CommitDate|CheckDate|Comments|DueDate|Grade|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
-|GaussJordan|❌|❌|❌|❌|❌|❌|NA|NA|24-03-2023 17:54:01|No se encontró el archivo en PracticasCompuI/GaussJordan/GaussJordan.cpp|27-03-2023 21:00:00|5|
+|GaussJordan|✔️|✔️|✔️|✔️|❌|✔️|7dd1c9bba93824d0887e885672136dbb68269201|27-03-2023 16:08:24|31-03-2023 23:06:59|No avisa al usuario que el sistema no tiene solución|29-03-2023 21:00:00|10.0|
 
-Última actualización: 24-03-2023 17:54
+Última actualización: 31-03-2023 23:08
