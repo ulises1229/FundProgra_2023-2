@@ -1,6 +1,6 @@
 # Calificaciones: 997160
 |Project|Exists|Compiles|Problem1|Problem2|Problem3|Extra|CommitHash|CommitDate|CheckDate|Comments|DueDate|Grade|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
-|GaussJordan|❌|❌|❌|❌|❌|❌|NA|NA|09-04-2023 20:35:59|No se encontró el archivo en PracticasCompuI/GaussJordan/GaussJordan.cpp|29-03-2023 21:00:00|5|
+|GaussJordan|✔️|✔️|✔️|✔️|❌|✔️|d0d650fad198c3b78aa46d1e993b112d720e1c8a|09-04-2023 21:09:33|09-04-2023 21:36:19|No avisa al usuario que el sistema no tiene solución|29-03-2023 21:00:00|5|
 
-Última actualización: 09-04-2023 20:35
+Última actualización: 09-04-2023 21:37
