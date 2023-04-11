@@ -1,6 +1,6 @@
 # Calificaciones: 5f7e24
 |Project|Exists|Compiles|Problem1|Problem2|Problem3|Extra|CommitHash|CommitDate|CheckDate|Comments|DueDate|Grade|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
-|GaussJordan|❌|❌|❌|❌|❌|❌|NA|NA|10-04-2023 23:18:27|No se encontró el archivo en PracticasCompuI/GaussJordan/GaussJordan.cpp|29-03-2023 21:00:00|5|
+|GaussJordan|❌|❌|❌|❌|❌|❌|NA|NA|11-04-2023 00:20:08|No se encontró el archivo en PracticasCompuI/GaussJordan/GaussJordan.cpp|29-03-2023 21:00:00|5|
 
-Última actualización: 10-04-2023 23:18
+Última actualización: 11-04-2023 00:20
