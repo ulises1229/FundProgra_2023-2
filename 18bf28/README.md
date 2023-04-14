@@ -1,6 +1,6 @@
 # Calificaciones: 18bf28
 |Project|Exists|Compiles|Problem1|Problem2|Problem3|Extra|CommitHash|CommitDate|CheckDate|Comments|DueDate|Grade|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
-|GaussJordan|❌|❌|❌|❌|❌|❌|NA|NA|13-04-2023 20:12:46|No se encontró el archivo en PracticasCompuI/GaussJordan/GaussJordan.cpp|29-03-2023 21:00:00|5|
+|GaussJordan|❌|❌|❌|❌|❌|❌|NA|NA|13-04-2023 21:14:27|No se encontró el archivo en PracticasCompuI/GaussJordan/GaussJordan.cpp|29-03-2023 21:00:00|5|
 
-Última actualización: 13-04-2023 20:12
+Última actualización: 13-04-2023 21:14
