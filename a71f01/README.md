@@ -1,6 +1,6 @@
 # Calificaciones: a71f01
 |Project|Exists|Compiles|Problem1|Problem2|Problem3|Extra|CommitHash|CommitDate|CheckDate|Comments|DueDate|Grade|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
-|GaussJordan|❌|❌|❌|❌|❌|❌|NA|NA|14-05-2023 21:22:35|No se encontró el archivo en PracticasCompuI/GaussJordan/GaussJordan.cpp|29-03-2023 21:00:00|5|
+|GaussJordan|❌|❌|❌|❌|❌|❌|NA|NA|14-05-2023 22:24:15|No se encontró el archivo en PracticasCompuI/GaussJordan/GaussJordan.cpp|29-03-2023 21:00:00|5|
 
-Última actualización: 14-05-2023 21:22
+Última actualización: 14-05-2023 22:24
